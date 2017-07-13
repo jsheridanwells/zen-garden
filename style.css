@@ -1,0 +1,94 @@
+/*/*FONTS*/
+@font-face {
+	font-family: 'ChiTownNF';
+	src: url(img/Chi-TownNF.ttf);
+}
+/*font-family: 'ChiTownNF', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Arvo', serif;*/
+
+/*CONTAINER AND FLEX STYLES*/
+
+body {
+	background-image: url('img/empire.jpg');
+	background-repeat: no-repeat;
+	background-position: 60% 0;
+	background-color: #fff;
+}
+
+section {
+	width: 60%;
+	float: left;
+	padding: 1em;
+}
+
+.main {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.main [role="article"] {
+	flex-grow: 1;
+	width: 40%;
+	padding: 1em;
+	background-color: #efefef;
+}
+
+.benefits {
+	order: 3;
+}
+
+.requirements {
+	order: 2;
+}
+
+footer {
+	width: 100%;
+	float: right;
+}
+
+aside {
+	position: absolute;
+	top: 800px;
+	left: 60%	;
+	width: 40%;
+	float: right;
+	padding-left: 3em;
+}
+
+/*FONT STYLES*/
+
+h1 {
+	font-family: 'ChiTownNF', cursive;
+	font-size: 5em;
+	background-color: #caebf2;
+	padding: 2em;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #a9a9a9;
+}
+
+h2, h3 {
+	font-family: 'Arvo', serif;
+	background-color: #ff5a5f;
+	width: 90%;
+	padding-left: 3em;
+	box-shadow: 1px 1px 10px #a9a9a9;
+}
+
+p, a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3em;
+}
+
+
+
+/*LIST STYLES*/
+ul {
+	list-style-type: none;
+}
+
+li {
+	font-family: 'Josefin Sans', sans-serif;
+}
