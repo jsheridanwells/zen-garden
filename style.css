@@ -1,0 +1,52 @@
+/*FONTS*/
+@font-face {
+	font-family: 'ChiTownNF';
+	src: url(img/Chi-TownNF.ttf);
+}
+
+body {
+	background-image: url('img/empire.jpg');
+	background-repeat: no-repeat;
+	background-position: 80% 0;
+	display: flex;
+}
+
+/*GENERAL STYLES*/
+
+.intro {
+	float: left;
+	width: 80%;
+}
+
+aside {
+	float: right;
+	width: 20%;
+}
+p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+	margin: 1em;
+	font-family: 'Arvo', serif;
+	font-size: 1.5em;
+}
+
+/*HEADER STYLES*/
+
+header {
+	width: 80%;
+}
+
+header h1 {
+	margin: 1em 1em 0 ;
+	font-family: 'ChiTownNF', cursive;
+	font-size: 5em;
+}
+
+header h2 {
+	margin: 1em 0 0 2em;
+	font-family: 'Arvo', serif;
+	font-size: 3em;
+}
+
